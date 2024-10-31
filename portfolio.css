@@ -7,7 +7,8 @@
 body{
     background-color: #ffffff;
     background-image: linear-gradient(104deg, #ffffff 44%, #5f7ad6 100%);
-}
+}    
+
 /* .anish{
     background-color: #FFDEE9;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
@@ -43,14 +44,11 @@ body{
 }
 
 .image{
-    height: 10em;
-    width: 10em;
+    height: 20vw;
+    width: 20vw;
 }
 .pic{
-    box-shadow: 9px -10px white, 16px -16px blue ;
-    height: 10em;
-    width: 10em;
-    
+    box-shadow: 9px -10px rgba(255, 255, 255, 0.941), 16px -16px blue ;
 }
 
 /* title */
