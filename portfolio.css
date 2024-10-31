@@ -5,8 +5,8 @@
     font-family: 'Fira Code';
 }
 body{
-    background-image: url('images/cool-background.png');
-
+    background-color: #ffffff;
+    background-image: linear-gradient(104deg, #ffffff 44%, #5f7ad6 100%);
 }
 /* .anish{
     background-color: #FFDEE9;
