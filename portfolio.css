@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code';
+}
+body{
+    background-image: url('/images/cool-background.png');
+
+}
+/* .anish{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    height: 100vh;
+    width: 100%;
+} */
+
+.navbar{
+    width: 85%;
+    margin: 2% 8% 0;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.yash{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: blue;
+    font-weight: 550;
+    transition: all;
+}
+.yash:hover{
+    transform: scale(1.2);
+}
+#no-under{
+    text-decoration: none;
+}
+
+.image{
+    height: 10em;
+    width: 10em;
+}
+.pic{
+    box-shadow: 9px -10px white, 16px -16px blue ;
+    height: 10em;
+    width: 10em;
+    
+}
+
+/* title */
+h1{
+    font-size: 4vw;
+}
+.tags{
+    font-size: 2.7vw;
+}
+#close{
+    font-size: 2.5vw;
+    width: 20%;
+    position: relative;
+    left: 70%;
+}
+
+.test{
+    /* border: black solid 4px; */
+    margin: 3% 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.icon{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    margin: 5%;
+    gap: 13px;
+   
+}
+.icons:hover{
+    /* border: black 4px solid;
+    border-radius: 100px;
+    padding: 2px; */
+    transform: scale(1.5);
+}
+.icons{
+    width: 40px;
+}
+.decorate{
+    height: 150px;
+    width: 20px;
+    border-right: blue solid 6px;
+}
+
+.right{
+    height: 150px;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    right: 2%; 
+}
+.email{
+    font-size: larger;
+    color: blue;
+    font-weight: 500;
+    /* margin-top: 100%; */
+    rotate: 270deg;
+    margin-left: 100%;
+}
+.intro{
+    width: 70%;
+    position: relative;
+    left: 17%;
+}
+.passionate{
+    font-size: 2.5vw;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.contact{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    margin: 4% 4%;
+}
+
+/* node table */
+.skills{
+    margin: 7% 13% ;
+}
+
+.sname{
+    font-size: 2.5vw;
+}
+.block{
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px blue;
+    background-color: white;
+}
+.row1{
+    width: 25%;
+}
+.row2{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 7%;
+}
+.node{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+#fst{
+    background-color: blue;
+    opacity: 0.2;
+}
+#snd{
+    background-color: blue;
+    opacity: 0.4;
+}
+#trd{
+    background-color: blue;
+    opacity: 0.6;
+}
+#frt{
+    background-color: blue;
+    opacity: 0.8;
+}
+#fft{
+    background-color: blue;
+    opacity: 1;
+}
+
+
+/* projects */
+.projects{
+    margin: 7% 13% ;
+}
+.para{
+    margin-top: 5%;
+    font-size: 2.5vw;
+}
+.projectbox{
+    padding: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+    
+}
+.repo{
+    height: 25vw;
+    width: 30vw;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px blue;
+}
+/* projectsnodes */
+.prohead{
+    font-size: 1.5vw;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    text-align: center;
+    font-size: 1.2vw;
+    padding: 5%;
+}
+.pronav{
+    padding: 4%;
+    height: 25%;
+    display: flex;
+    justify-content: right;
+    gap: 3%;
+}
+.menu{
+    height: 3.5vw;
+}
+.visit{
+    display: flex;
+    justify-content: center;
+}
+#direct{
+    font-size: 1.2vw;
+    height: 3vw;
+    width: 10vw;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Get In Touch */
+.touch{
+    margin: 7% 13%;
+}
+
+#end{
+    margin: 3% 0%;
+}
+
+.ending{
+    height: 50px;
+    font-family: monospace;
+    background-color: grey;
+}
+
+.copyright{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 162, 162);
+}
+.close{
+    font-size: 1.7vw;
+}
